@@ -3,7 +3,8 @@
     margin: 0;
 }
 html{
-    background-color: rgb(168, 167, 139);
+    background-color: #0d1117;
+    color: #c9d1d9;
 }
 nav{
     background-color:rgb(28, 51, 73);
@@ -83,11 +84,11 @@ nav li:hover{
 #A_content{
     margin-top: 20px;
     margin-left: 15px;
-    color: rgb(237, 237, 187);
+    color: #c9d1d9;
     margin-bottom: 50px;
 }
 #icon{
-    color: black;
+    color: #c9d1d9;
     text-decoration: none;
     margin: 10px;
     font-size: 40px;
@@ -153,6 +154,7 @@ nav li:hover{
     margin-bottom: 30px;
 }
 #Projects p{
+    color: #c9d1d9;
     display: inline-block;
     width: 180px;
     margin-left: 210px;
@@ -202,9 +204,9 @@ nav li:hover{
     margin-left: 100px;
     display: inline-flex;
 }
-#Contact_Me h1{
-    font-size: 35px;
-    align-self: center;
+#Contact_Me img{
+    width: 500px;
+    height: 500px;
 }
 #Contact_Me form{
     font-family: cursive;
@@ -212,7 +214,7 @@ nav li:hover{
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 30px;
-    margin-left: 450px;
+    margin-left: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
