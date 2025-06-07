@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali Maroo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+</head>
+<body>
+        <nav class="navbar">
+            <a href=""><img src="logo.png"></a>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <!--<li><a href="#Certifications">Certifications</a></li>-->
+                <li><a href="#Contact_Me">Contact Me</a></li>
+                <div class="menu_icon" onclick="myFunction(this)">
+                    <div id="R1"></div>
+                    <div id="R2"></div>
+                    <div id="R3"></div>
+                </div>
+            </ul>
+        </nav>
+        <div class="main">
+        <section id="About">
+            <div class="A_data"><b id="A-name">
+                I'm Anjali Maroo</b><br><p id="A_content">I create well-structured digital content and responsive designs, combining logical problem-solving with attention to detail. I’m passionate about delivering clear, efficient solutions that connect design, development, and technical precision
+                </p>
+                <div class="A_icons">
+                <i class="fa"><a id="icon" href="https://github.com/Anjali-Maroo" target="_blank">&#xf09b;</a></i>
+                <i class="fa"><a id="icon" href="http://www.linkedin.com/in/anjali-maroo" target="_blank">&#xf08c;</a></i>
+                <i class="fa-solid"><a id="icon" href="https://mail.google.com/mail/?view=cm&fs=1&to=uni.anjali1@gmail.com" target="_blank">&#9993;</a></i>
+            </div>
+            </div>
+            <img src="orignal_no_bg.png" id="pic">
+        </section>
+        <section id="Skills">
+            <h1>My Skills</h1>
+            <p id="S_content"><i class="fa-brands fa-html5" style="color: #e44f26;"></i><br>HTML</p>
+                <p id="S_content"><i class="fa-brands fa-css3-alt" style="color: #264de4;"></i><br>CSS3</p>
+                <p id="S_content"><i class="devicon-cplusplus-plain colored"></i><br>C++</p>
+                <p id="S_content"><i class="devicon-c-plain colored"></i><br>C</p>
+                <p id="S_content"><img src="autocad_logo.png" id="s_pic" srcset=""><br>AutoCAD</p><br>
+                
+        </section>
+        <section id="Projects">
+            <h1>Projects</h1>
+            
+                <a target="_blank" href="https://github.com/Anjali-Maroo/personal_projects/blob/main/cpp_complexcalculator"><P><i class="fa-solid fa-calculator"></i><br>Complex Calculator</P></a>
+                <a href="https://github.com/Anjali-Maroo/personal_projects/blob/main/cpp_library-management" target="_blank"><p><i class="fa-solid fa-book"></i><br>Library Management</p></a>
+            
+                <a target="_blank" href="https://anjali-maroo.github.io/personal_projects/smart-contract_trackvault.html"><P><i class="fa-solid fa-link"></i><br>Smart-Contract Trackvault</P></a>
+        </section>
+        <!--<section id="Certifications">
+            <h1>Certifications</h1>
+            <p></p>
+            <p></p>
+            <p></p>
+        </section>-->
+        <section id="Contact_Me">
+            <h1>Contact Me:</h1><br>
+            <form id="form" action="portfolio.php" method="POST">
+                <label for="name">Name</label><br>
+                <input name="name" type="text" id="name" class="data" placeholder="Enter your name" required><br>
+
+                <label for="email">E-mail</label><br>
+                <input name="email" type="email" id="email" placeholder="Enter E-mail Address" class="data" required><br>
+                
+                <label for="subject">Subject</label><br>
+                <input name="subject" type="text" id="subject" placeholder="Enter subject" class="data" required><br>
+
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" class="data" placeholder="Message" required></textarea><br>
+                
+                <button type="submit" name="Send" id="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <div class="footer">
+    Designed and Developed by Anjali Maroo
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="portfolio.js"></script>
+
+</body>
+</html>
