@@ -136,9 +136,9 @@ body{
     align-content: center;
 }
 #Skills p:hover{
-    font-size: 35px;
-    width: 180px;
-    height: 180px;
+    font-size: 32px;
+    width: 160px;
+    height: 160px;
     align-content: center;
     cursor: default;
 }
@@ -219,7 +219,7 @@ body{
     padding: 15px;
     padding-left: 40px;
     padding-right: 40px;
-    border-radius: 30px;
+    border-radius: 80px;
     margin-left: 320px;
     display: flex;
     flex-direction: column;
@@ -280,8 +280,35 @@ input{
     font-size: 20px;
 }
 @media screen and (max-width: 991px) {
-    nav ul{
-        display: none;
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #About, #Skills, #Projects, #Certifications, #Contact_Me{
+        justify-content: center;
+        margin-left: 50px;
+    }
+    #pic{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    #Projects p{
+        margin-left: 95px;
+    }
+    #Contact_Me{
+    display: flex;
+    align-content: center;
+    }
+    #Contact_Me img{
+    width: 350px;
+    height: 350px;
+    align-self: center;
+}
+    #Contact_Me form{
+        margin: 0px 0px 0px 40px;
+        width: 350px;
+        height: 450px;
     }
 }
 
