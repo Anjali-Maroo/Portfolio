@@ -82,7 +82,6 @@ body{
     width: 600px;
     margin-left: 50px;
     font-size: 20px;
-    font-family: cursive;
 }
 #A_content{
     margin-top: 20px;
@@ -115,7 +114,8 @@ body{
     margin-top: 150px;
     margin-left: 100px;
     display: block;
-    align-content: center;
+    margin-right: 25px;
+    justify-content: center;
 }
 #Skills h1{
     font-size: 35px;
@@ -123,10 +123,8 @@ body{
 }
 #Skills p{
     display: inline-block;
-    margin-left: 95px;
-    margin-right: 10px;
+    margin-left: 75px;
     font-size: 30px;
-    font-family: cursive;
     width: 150px;
     height: 150px;
     text-align: center;
@@ -134,11 +132,10 @@ body{
     margin-top: 30px;
     transition: all 0.2s ease;
     align-content: center;
+    
 }
 #Skills p:hover{
-    font-size: 32px;
-    width: 160px;
-    height: 160px;
+    font-size: 35px;
     align-content: center;
     cursor: default;
 }
@@ -148,6 +145,7 @@ body{
 #Projects{
     margin-top: 80px;
     margin-left: 100px;
+    margin-right: 20px;
     display: block;
     align-content: center;
 }
@@ -156,28 +154,22 @@ body{
     margin-right: 50px;
     margin-bottom: 30px;
 }
-#Projects p{
+#Projects a{
+    width: 160px;
+    height: 160px;
     color: #c9d1d9;
     display: inline-block;
-    width: 180px;
-    height: 180px;
     align-content: center;
-    margin-left: 210px;
-    font-size: 22px;
-    font-family: cursive;
+    margin-left: 75px;
+    font-size: 24px;
     text-align: center;
     border: 3px solid ;
     margin-top: 10px;
     transition: all 0.2s ease;
-}
-#Projects a{
-    color: black;
     text-decoration: none;
 }
-#Projects p:hover{
-    font-size: 25px;
-    height: 200px;
-    align-content: center;
+#Projects a:hover{
+    font-size: 27px;
 }
 #Certifications{
     margin-top: 80px;
@@ -303,17 +295,35 @@ input{
     #Contact_Me img{
     width: 350px;
     height: 350px;
+    margin: 30px 30px 30px 40px;
     align-self: center;
 }
     #Contact_Me form{
-        margin: 0px 0px 0px 40px;
+        margin: 30px 30px 30px 40px;
         width: 350px;
         height: 450px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 783px) {
+    .body{
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .main{
+        width: 70vw;
+    }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 695px) {
+    .body{
+        width: 100vw;
+        margin: 0 auto;
+    }
+    nav ul li{
+        display: none;
+    }
+    .main{
+        width: 70vw;
+    }
 }
