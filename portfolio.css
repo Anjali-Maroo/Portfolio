@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+.body{
+        width: 100vw;
+        margin: 0 auto;
+}
 html{
     background-color: #0d1117;
     color: #c9d1d9;
@@ -306,20 +310,12 @@ input{
 }
 
 @media screen and (max-width: 783px) {
-    .body{
-        width: 100vw;
-        margin: 0 auto;
-    }
     .main{
         width: 70vw;
     }
 }
 
 @media screen and (max-width: 695px) {
-    .body{
-        width: 100vw;
-        margin: 0 auto;
-    }
     nav ul li{
         display: none;
     }
