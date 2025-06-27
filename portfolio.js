@@ -24,3 +24,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
 
     this.reset(); // Optional: clear form after popup
   });
+function myFunction(x) {
+  x.classList.toggle("change");
+  document.querySelector("nav ul").classList.toggle("show");
+}

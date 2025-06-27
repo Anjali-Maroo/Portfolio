@@ -1,179 +1,142 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-.body{
-        width: 100vw;
-        margin: 0 auto;
+body{
+background-color: #0d1117;
 }
-html{
-    background-color: #0d1117;
-    color: #c9d1d9;
-}
-nav{
-    background-color:rgb(28, 51, 73);
+.navbar{
+    background-color: rgb(28, 55, 74);
     display: flex;
-    justify-content: space-between;
+    width: 100vw;
+    padding: 1rem;
+}
+.navbar img{
+    width: 4rem;
+}
+.navbar ul{
+    margin-left: 40rem;
+    list-style-type: none;
+    display: flex;
+    
     align-items: center;
+    font-size: 1.8rem;
+    gap: 2rem;
 }
-nav img{
-    width:60px;
-    padding: 10px;
-}
-nav ul{
-    list-style: none;
-    display: inline-flex;
-    margin-right: 55px;
-}
-nav li{
-    padding: 20px;
-    font-size: 25px;
-    text-decoration-color: transparent;
-    transition: text-underline-offset 8s ease-in-out;
-    transform: scaleX(1);
-}
-nav a{
-    color: white;
+.navbar a{
+    color: aliceblue;
     text-decoration: none;
 }
-
 nav li:hover{
     text-decoration: underline rgb(168, 167, 139);
-    text-underline-offset: 18px;
+    text-underline-offset: 1rem;
     transform: scaleX(0.9);
     cursor: pointer;
 }
-.menu_icon {
-  cursor: pointer;
-  align-self: center;
-  margin-left: 18px;
-  display: none;
-}
-
-#R1, #R2, #R3 {
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-/* Rotate first bar */
-.change #R1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
-
-/* Fade out the second bar */
-.change #R2 {opacity: 0;}
-
-/* Rotate last bar */
-.change #R3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-body{
-    background-color: #0d1117;
+.menu_icon{
+    display: flex;
+    color: aliceblue;    
+    align-items: center;
+    margin-left: 6rem;
+    display: none;
 }
 #About{
-    margin-top: 150px;
-    margin-left: 100px;
     display: inline-flex;
-    align-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    margin-left: 7rem;
 }
 #A-name{
-    font-size: 58px;
+    font-size: 2.5em;
+    color: white;
 }
 .A_data{
-    width: 600px;
-    margin-left: 50px;
-    font-size: 20px;
+    width: 34rem;
+    font-size: 1.1rem;
+    text-align: center;
 }
 #A_content{
-    margin-top: 20px;
-    margin-left: 15px;
-    color: #c9d1d9;
-    margin-bottom: 50px;
+    color: #555758;
+    margin-bottom: 1.6rem;
+    text-align: justify;
 }
 #icon{
+    margin-right: 1.6rem;
     color: #c9d1d9;
     text-decoration: none;
-    margin: 10px;
-    font-size: 40px;
+    font-size: 2.5rem;
     transition: all 0.1s ease;
 }
 #About i :hover{
-    font-size: 50px;
-}
-.A_icons{
-    margin-left: 135px;
+    font-size: 3rem;
 }
 #pic{
-    padding-top: 20px;
-    margin-left: 200px;
-    width: 380px;
-    height: 380px;
+    padding-top: 2rem;
+    margin-left: 15rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 50%;
     background-color: rgb(60,80,110);
 }
 #Skills{
-    margin-top: 150px;
-    margin-left: 100px;
-    display: block;
-    margin-right: 25px;
-    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 7rem;
+    margin-left: 7rem;
+    color: white;
 }
 #Skills h1{
-    font-size: 35px;
-    margin-right: 50px;
+    font-size: 2.3rem;
 }
 #Skills p{
     display: inline-block;
-    margin-left: 75px;
-    font-size: 30px;
-    width: 150px;
-    height: 150px;
+    margin-left: 3rem;
+    font-size: 1.8rem;
+    width: 10rem;
+    height: 10rem;
     text-align: center;
-    border: 3px solid ;
-    margin-top: 30px;
+    border: 0.2rem solid ;
+    margin-top: 1rem;
     transition: all 0.2s ease;
     align-content: center;
     
 }
 #Skills p:hover{
-    font-size: 35px;
+    font-size: 2.2rem;
     align-content: center;
     cursor: default;
 }
 #s_pic{
-    width: 30px;
+    width: 3rem;
 }
 #Projects{
-    margin-top: 80px;
-    margin-left: 100px;
-    margin-right: 20px;
-    display: block;
-    align-content: center;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 7rem;
+    margin-left: 7rem;
+    color: white;
 }
 #Projects h1{
-    font-size: 35px;
-    margin-right: 50px;
-    margin-bottom: 30px;
+    font-size: 2.3rem;
 }
 #Projects a{
-    width: 160px;
-    height: 160px;
-    color: #c9d1d9;
     display: inline-block;
-    align-content: center;
-    margin-left: 75px;
-    font-size: 24px;
+    margin-left: 4rem;
+    font-size: 1.8rem;
+    width: 12rem;
+    height: 12rem;
     text-align: center;
-    border: 3px solid ;
-    margin-top: 10px;
+    border: 0.2rem solid ;
+    margin-top: 1rem;
     transition: all 0.2s ease;
+    align-content: center;
     text-decoration: none;
+    color: white;
 }
 #Projects a:hover{
-    font-size: 27px;
+    font-size: 2rem;
+    align-content: center;
+    cursor: pointer;
 }
 #Certifications{
     margin-top: 80px;
@@ -191,7 +154,6 @@ body{
     width: 180px;
     margin-left: 220px;
     font-size: 23px;
-    font-family: cursive;
     text-align: center;
     border: 3px solid ;
     margin-bottom: 10px;
@@ -201,61 +163,63 @@ body{
     text-decoration: none;
 }
 #Contact_Me{
-    margin-top: 100px;
-    margin-left: 100px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 7rem;
+    margin-left: 7rem;
+    color: white;
+}
+#Contact_Me{
+    margin-top: 9rem;
+    margin-left: 9rem;
     display: inline-flex;
 }
 #Contact_Me img{
-    width: 450px;
-    height: 450px;
+    width: 25rem;
+    height: 25rem;
     align-self: center;
 }
 #Contact_Me form{
-    font-family: cursive;
-    padding: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 80px;
-    margin-left: 320px;
+    padding: 2rem;
+    border-radius: 3rem;
+    margin-left: 22rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 1.5rem;
     background-color: rgb(28, 51, 73);
     border: none;
     line-height: 0.4;
 }
 #Contact_Me label{
-    padding: 15PX;
-    margin-bottom: -10px;
+    padding: 1rem;
+    margin-bottom: -0.8rem;
 }
 input{
-    width: 350px;
-    border-radius: 15px;
-    height: 40px;
-    font-size: 18PX;
-    padding-left: 8px;
+    width: 22rem;
+    border-radius: 1rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
     background: transparent;
     color: aliceblue;
 }
 #Contact_Me form textarea{
-    gap: 0px;
-    width: 350px;
-    height: 240px;
-    border-radius: 10px;
-    padding: 8px;
+    width: 22rem;
+    height: 12rem;
+    border-radius: 1rem;
+    padding: 1rem;
     resize: none;
-    font-size: 18PX;
+    font-size: 1.2rem;
     background: transparent;
     color: aliceblue;
 }
 #Contact_Me form button{
     background-color: black;
     color: white;
-    font-size: 20px;
-    padding: 8px;
-    width: 150px;
+    font-size: 1.2rem;
+    width: 10rem;
     height: 40PX;
     border-radius: 15px;
     border: none;
@@ -263,63 +227,49 @@ input{
 }
 #Contact_Me form button:hover{
     cursor: pointer;
-    font-size: 22px;
-    width: 170px;
+    font-size: 1.5rem;
+    width: 12rem;
 }
 .footer{
-    margin-top: 40px;
+    margin-top: 2rem;
     background-color: rgb(60,80,110);
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
     color: aliceblue;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
-@media screen and (max-width: 991px) {
-    section{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+@media only screen and (max-width: 1280px) {
+    .navbar{
+        width: 100vw;
     }
-    #About, #Skills, #Projects, #Certifications, #Contact_Me{
-        justify-content: center;
-        margin-left: 50px;
+    .footer{
+        width: 100vw;
+    }
+    #About, #Skills, #Projects, #Contact_Me{
+        margin-left: 2rem;
     }
     #pic{
-        margin-top: 50px;
-        margin-left: 0;
+        margin: 1rem;
+        width: 18rem;
+        height: 18rem;
     }
-    #Projects p{
-        margin-left: 95px;
+    .A_data{
+        width: 70vw;
     }
-    #Contact_Me{
-    display: flex;
-    align-content: center;
-    }
-    #Contact_Me img{
-    width: 350px;
-    height: 350px;
-    margin: 30px 30px 30px 40px;
-    align-self: center;
-}
     #Contact_Me form{
-        margin: 30px 30px 30px 40px;
-        width: 350px;
-        height: 450px;
+        margin-left: 2rem;
     }
+    input{
+        width: 19rem;
+    }
+    #Contact_Me form textarea{
+    width: 19rem;
+    }
+    .footer{
+    font-size: 1.6rem;
 }
-
-@media screen and (max-width: 783px) {
-    .main{
-        width: 70vw;
-    }
 }
-
-@media screen and (max-width: 695px) {
-    nav ul li{
-        display: none;
-    }
-    .main{
-        width: 70vw;
-    }
+@media screen {
+    
 }
