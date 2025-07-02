@@ -173,6 +173,7 @@ nav li:hover{
     margin-top: 9rem;
     margin-left: 9rem;
     display: inline-flex;
+    justify-content: space-between;
 }
 #Contact_Me img{
     width: 25rem;
