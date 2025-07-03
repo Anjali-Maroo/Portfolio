@@ -4,24 +4,25 @@
 }
 body{
 background-color: #0d1117;
+width: 100vw;
 }
 .navbar{
-    background-color: rgb(28, 55, 74);
-    display: flex;
-    width: 100vw;
+    display: inline-flex;
+    justify-content: space-between;
+    min-width: 100vw;
     padding: 1rem;
+    background-color: rgb(28, 51, 73);
 }
 .navbar img{
     width: 4rem;
 }
 .navbar ul{
-    margin-left: 40rem;
     list-style-type: none;
-    display: flex;
-    
+    display: inline-flex;
     align-items: center;
     font-size: 1.8rem;
     gap: 2rem;
+    margin-right: 4rem;
 }
 .navbar a{
     color: aliceblue;
@@ -33,18 +34,11 @@ nav li:hover{
     transform: scaleX(0.9);
     cursor: pointer;
 }
-.menu_icon{
-    display: flex;
-    color: aliceblue;    
-    align-items: center;
-    margin-left: 6rem;
-    display: none;
-}
 #About{
     display: inline-flex;
     align-items: center;
     margin-top: 7rem;
-    margin-left: 7rem;
+    margin-left: 10rem;
 }
 #A-name{
     font-size: 2.5em;
@@ -68,7 +62,7 @@ nav li:hover{
     transition: all 0.1s ease;
 }
 #About i :hover{
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 #pic{
     padding-top: 2rem;
@@ -79,62 +73,74 @@ nav li:hover{
     background-color: rgb(60,80,110);
 }
 #Skills{
-    display: inline-flex;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
     margin-top: 7rem;
-    margin-left: 7rem;
     color: white;
 }
 #Skills h1{
     font-size: 2.3rem;
+    text-align: center;
+}
+#S_content{
+    display: flex;
+    justify-self: center;
+    gap: 2rem;
 }
 #Skills p{
-    display: inline-block;
-    margin-left: 3rem;
-    font-size: 1.8rem;
+    font-size: 5rem;
     width: 10rem;
     height: 10rem;
     text-align: center;
-    border: 0.2rem solid ;
-    margin-top: 1rem;
+    margin-top: 2rem;
     transition: all 0.2s ease;
     align-content: center;
     
 }
 #Skills p:hover{
-    font-size: 2.2rem;
+    font-size: 6rem;
     align-content: center;
     cursor: default;
 }
 #s_pic{
-    width: 3rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    transition: all 0.2s ease;
+}
+#s_pic:hover{
+    width: 6.5rem;
+    height: 6.5rem;
 }
 #Projects{
-    display: inline-flex;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
     margin-top: 7rem;
-    margin-left: 7rem;
     color: white;
 }
 #Projects h1{
     font-size: 2.3rem;
+    text-align: center;
+}
+#P_content{
+    display: flex;
+    justify-self: center;
+    gap: 15rem;
 }
 #Projects a{
-    display: inline-block;
-    margin-left: 4rem;
-    font-size: 1.8rem;
-    width: 12rem;
-    height: 12rem;
+    font-size: 2.2rem;  
+    width: 15rem;
+    height: 15rem;
     text-align: center;
-    border: 0.2rem solid ;
-    margin-top: 1rem;
+    margin-top: 2rem;
     transition: all 0.2s ease;
     align-content: center;
     text-decoration: none;
     color: white;
 }
 #Projects a:hover{
-    font-size: 2rem;
+    font-size: 2.5rem;
     align-content: center;
     cursor: pointer;
 }
@@ -225,6 +231,7 @@ input{
     border-radius: 15px;
     border: none;
     margin-top: 10px;
+    transition: all 0.2s ease;
 }
 #Contact_Me form button:hover{
     cursor: pointer;
@@ -232,6 +239,7 @@ input{
     width: 12rem;
 }
 .footer{
+    width: 100%;
     margin-top: 2rem;
     background-color: rgb(60,80,110);
     padding: 2rem;
